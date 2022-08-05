@@ -165,7 +165,7 @@
     border-radius: 50px;
     border: 1px solid white;
     margin-left: 130px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .p-more{
     text-align: center;
@@ -238,4 +238,3 @@
 .sixth-block:hover{
     opacity: 1;
 }
-
