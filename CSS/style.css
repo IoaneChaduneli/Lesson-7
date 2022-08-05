@@ -1,0 +1,241 @@
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+}
+.text-block{
+    display: flex;
+    padding-left: 90px;
+}
+.text:nth-child(1){
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    color: #3D37F1;
+    font-size: 32px;
+    margin-left: 15px;
+    margin-top: 20px ;
+
+}
+.text:nth-child(2){
+    font-size: 32px;
+    color: #4B647E;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.nav-ul{
+    display: flex;
+    margin-left: 900px;
+    padding-top: 25px;
+    
+}
+.a-li{
+    font-size: 20px;
+    font-weight: bold;
+    color: #3D37F1;
+    margin-left: 15px;
+    font-family: 'Lato', sans-serif;
+
+}
+.first-text{
+    margin-top: 20px;
+    
+
+}
+/* section */
+.container2{
+    display: flex;
+    padding-top: 200px;
+}
+.picture-block{
+    margin-left: 450px;
+}
+.text-div{
+    padding-left: 90px;
+    padding-top: 30px;
+    
+
+}
+.text2{
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    color: #534D4D;
+    font-weight: bold;
+    
+}
+.text-p{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #534D4D;
+    font-family: 'Lato', sans-serif;
+}
+.wave{
+    width: 263.67px;
+    height: 76.77px;
+    background-color: #3D37F1;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 100px;
+}
+.wave-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFFFFF;
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+}
+.image2{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+/* section2 */
+.bottom-block{
+    padding-top: 100px;
+}
+.text4{
+    font-size: 20px;
+    color: #3D37F1;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.text5 {
+    text-align: center;
+    font-size: 40px;
+    color: #5A5454;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.textblock{
+    width: 600px;
+    margin-left: 650px;
+    text-align: center;
+
+}
+.text-p1{
+    margin-top: 20px;
+    line-height: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+/* blocks */
+.box{
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    width: 1500px;
+    height: 961px;
+    margin-left: 150px;
+}
+.first-box {
+    width: 370px;
+    height: 451px;
+    background-color: #FBBA77;
+    margin-left: 250px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.img-box{
+    margin-top: 100px;
+    margin-left: 130px;
+}
+.text-box{
+    margin-left: 130px ;
+    margin-top: 50px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+}
+.p-box{
+    margin-left: 1px;
+    margin-top: 50px;
+    text-align: center; 
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.read-more{
+    width: 131px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+.p-more{
+    text-align: center;
+    margin-top: 15px;
+   font-family: 'Lato', sans-serif;
+   font-size: 16px;
+   color: #FFFFFF;
+}
+
+.second-box{
+    width: 370px;
+    height: 451px;
+    background-color: #41EAE3;
+    margin-left: 50px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.third-block{
+    width: 370px;
+    height: 451px;
+    background-color: #69529F;
+    margin-left: 50px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.forth-block{
+    width: 370px;
+    height: 451px;
+    background-color: #4386D2;
+   transform: translateX(250px);
+    margin-top: 50px;
+    opacity: 0.5;
+    cursor: pointer;
+   
+}
+.fifth-block{
+    width: 370px;
+    height: 451px;
+    background-color: #A5A2F6;
+    /* margin-left: 50px; */
+    margin-top: 50px;
+    margin-left: 300px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.sixth-block{
+    width: 370px;
+    height: 451px;
+    background-color: #FF8088;
+    margin-left: 50px;
+    margin-top: 50px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.first-box:hover{
+    opacity: 1;
+}
+.second-box:hover{
+    opacity: 1;
+}
+.third-block:hover{
+    opacity: 1;
+}
+.forth-block:hover{
+    opacity: 1;
+}
+.fifth-block:hover{
+    opacity: 1;
+}
+.sixth-block:hover{
+    opacity: 1;
+}
+
